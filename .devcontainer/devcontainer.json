@@ -1,0 +1,24 @@
+{
+    "name": "php-laravel-sqs-worker",
+    "image": "mcr.microsoft.com/devcontainers/php:8.3-bookworm",
+    "features": {
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.profiles.linux": {
+                    "bash": {
+                        "path": "/bin/bash"
+                    }
+                },
+                "terminal.integrated.defaultProfile.linux": "bash"
+            },
+            "extensions": [
+                "bmewburn.vscode-intelephense-client",
+                "esbenp.prettier-vscode",
+                "redhat.vscode-yaml"
+            ]
+        }
+    },
+    "postCreateCommand": ""
+}
