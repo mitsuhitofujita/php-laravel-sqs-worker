@@ -7,15 +7,11 @@ use Illuminate\Console\Command;
 class Worker extends Command
 {
     /**
-     * The name and signature of the console command.
-     *
      * @var string
      */
     protected $signature = 'sqs:worker';
 
     /**
-     * The console command description.
-     *
      * @var string
      */
     protected $description = 'Command description';
@@ -25,6 +21,6 @@ class Worker extends Command
      */
     public function handle()
     {
-        //
+        return 0;
     }
 }
