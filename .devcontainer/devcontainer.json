@@ -2,6 +2,12 @@
     "name": "php-laravel-sqs-worker",
     "image": "mcr.microsoft.com/devcontainers/php:8.3-bookworm",
     "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "20.11.0"
+        },
+        "ghcr.io/devcontainers/features/terraform:1": {
+            "version": "1.6.6"
+        }
     },
     "customizations": {
         "vscode": {
@@ -20,5 +26,5 @@
             ]
         }
     },
-    "postCreateCommand": ""
+    "postCreateCommand": "npm install -g cdktf-cli"
 }
