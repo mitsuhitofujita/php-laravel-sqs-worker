@@ -26,5 +26,5 @@
             ]
         }
     },
-    "postCreateCommand": "npm install -g cdktf-cli"
+    "postCreateCommand": "npm install -g cdktf-cli@0.20.0"
 }
