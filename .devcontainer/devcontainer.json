@@ -26,5 +26,6 @@
             ]
         }
     },
-    "postCreateCommand": "npm install -g cdktf-cli@0.20.0"
+    "postCreateCommand": "npm install -g cdktf-cli@0.20.0",
+    "runArgs": ["--env-file",".devcontainer/devcontainer.env"]
 }
